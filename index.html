@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK.COM</title>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=AlHsO7SEWorUK6FZ8fwlrn6Tw8fpznGRiFl5x2K2gadSOt3e_ZXk9uev8ikOevNE7QGveAQvifuiORtzPDIHJA" charset="UTF-8"></script>
+    <style>
+		body{
+			margin: 0;
+		}
+        .header{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            background-color: #4277a5;
+            
+        }
+        .header_img{
+            
+            color: white;
+            font-size: x-large;
+            font-weight:bold;
+            margin-left: 200px;
+        
+
+        }
+        .header_search{
+            
+            margin-left: 100px;
+        
+        }
+        .header_search input{
+            
+            background-color: #2c4869;
+            border-radius: 10px;
+        	border: none;
+        }
+
+        .body{
+            padding-top: 20px;
+            display: flex;
+            
+            width: 100%;
+            height: auto;
+            background-color: #e8eaed;
+        }
+        .menu{
+            width: 100px;
+            margin-left: 190px;
+            color: #2c4869;
+        }
+        .menu1{
+            padding-top: 15px;
+        }
+        .menu2{
+            padding-top: 15px;
+        }
+        .menu3{
+            padding-top: 15px;
+        }
+        .menu4{
+            padding-top: 15px;
+        }
+        .menu5{
+            padding-top: 15px;
+        }
+        .menu6{
+            padding-top: 15px;
+        }
+        .menu7{
+            padding-top: 15px;
+        }
+        .menu8{
+            padding-top: 15px;
+        }
+
+
+        .profil{
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            margin-left: 40px;
+        }
+
+        .profil_img img{
+            object-fit:cover;
+        }
+
+        .profil_btn{
+            margin-top: 10px;
+        }
+
+        .profil_btn_styled {
+            border: 0;
+            line-height: 2.5;
+            padding: 0 20px;
+            width: 220px;
+            font-size: 1rem;
+            text-align: center;
+            color: #2c4869;
+            border-radius: 5px;
+            background-color: r#e8eaed;
+        }
+
+
+        .friends{
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            margin-left: 40px;
+            margin-top: 15px;
+            color: #2c4869;
+        }
+
+        .friends_text{
+            margin-bottom: 10px;
+        }
+
+        .friends_icon_row1{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            text-align: center;
+            color: #2c4869;
+        }
+
+        .friends_icon_row1 img{
+            object-fit:cover;
+            margin: 10px;
+        }
+
+        .friends_icon_row2{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            text-align: center;
+            color: #2c4869;
+        }
+
+        .friends_icon_row2 img{
+            object-fit:cover;
+            margin: 10px;
+        
+        }
+
+        .profil_info{
+            width: 650px;
+            height: 260px;
+            padding: 15px;
+            background-color: white;
+            margin-left: 15px;
+            border-radius: 5px;
+            
+            color: #2c4869;
+        }
+
+        .profil_info1{
+            
+            display: flex;
+            justify-content: space-between;
+        }
+
+        hr{
+            transform: scaleY(0.5);
+        }
+
+        .birthday{
+            margin-top: 20px;
+            display: flex;
+        }
+        .birthday_value{
+            margin-left: 60px;
+        }
+
+        .city{
+            margin-top: 5px;
+            display: flex;
+        }
+        .city_value{
+            margin-left: 60px;
+        }
+
+        .marital_status{
+            margin-top: 5px;
+            display: flex;
+        }
+        .marital_status_value{
+            margin-left: 60px;
+        }
+        
+        .work{
+            margin-top: 5px;
+            display: flex;
+        }
+        .work_value{
+            margin-left: 60px;
+        }
+
+        .web{
+            margin-top: 5px;
+            display: flex;
+        }
+        .web_value{
+            margin-left: 60px;
+        }
+
+        .dashbord{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .value{
+            font-size:x-large;
+        }
+
+
+        .photos{
+            width: 650px;
+            height: 150px;
+            margin-top: 15px;
+            padding: 15px;
+            background-color: white;
+            margin-left: 15px;
+            border-radius: 5px;
+            
+            color: #2c4869;
+        }
+        .photos_text{
+            margin-top: 10px;
+        }
+
+        .photos_img{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .post{
+            width: 650px;
+            height: 300px;
+            margin-top: 15px;
+            padding: 15px;
+            background-color: white;
+            margin-left: 15px;
+            border-radius: 5px;
+            
+            color: #2c4869;
+        }
+
+    
+
+        .post_user_img img{
+            height: 50px;
+            object-fit:cover;
+            border-radius: 50%;
+        }
+
+        .post_user{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .post_user_text{
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        
+        .post_text{
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header_img">VK</div>
+        <div class="header_search">
+            <input type="search" / name="search" class="search" placeholder="Поиск">
+        </div>
+    </div>
+    <div class="body">
+        <div class="menu">
+            <div class="menu1">Моя страница</div>
+            <div class="menu2">Новости</div>
+            <div class="menu3">Сообщения</div>
+            <div class="menu4">Друзья</div>
+            <div class="menu5">Группы</div>
+            <div class="menu6">Фотографии</div>
+            <div class="menu7">Музыка</div>
+            <div class="menu8">Видео</div>
+        </div>
+        <div class="info1">
+
+            <div class="profil">
+                <div class="profil_img">
+                    <img src="https://photobooth.cdn.sports.ru/preset/post/9/cd/e9efeb6e1454da03468de7e10e873.jpeg?f=webp&q=90&s=2x&w=730" width="220px" height="220px">
+                </div>
+                <div class="profil_btn">
+                    <button class="profil_btn_styled" type="button">Редактировать</button>
+                </div>
+            </div>
+            
+
+            <div class="friends">
+                <div class="friends_text">Друзья 31</div>
+
+                <div class="friends_icon_row1">
+                    <div class="friends_icon1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/265/265674.png" width="50px">
+                        <div>Талгат</div>
+                    </div>
+                    <div class="friends_icon2">
+                        <img src="https://cdn-icons-png.flaticon.com/128/265/265674.png" width="50px">
+                        <div>Куаныш</div>
+                    </div>
+                    <div class="friends_icon3">
+                        <img src="https://cdn-icons-png.flaticon.com/128/265/265674.png" width="50px">
+                        <div>Аскар</div>
+                    </div>
+                </div>
+                <div class="friends_icon_row2">
+                    <div class="friends_icon4">
+                        <img src="https://cdn-icons-png.flaticon.com/128/265/265674.png" width="50px">
+                        <div>Дастан</div>
+                    </div>
+                    <div class="friends_icon5">
+                        <img src="https://cdn-icons-png.flaticon.com/128/265/265674.png" width="50px">
+                        <div>Аян</div>
+                    </div>
+                    <div class="friends_icon6">
+                        <img src="https://cdn-icons-png.flaticon.com/128/265/265674.png" width="50px">
+                        <div>Абилхан</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="info2">
+
+            <div class="profil_info">
+                <div class="profil_info1">
+                    <div>
+                        <div>Marat Aibekov</div>
+                        <div>Freedom</div>
+                    </div>
+                    <div class="profil_status">Offline</div>
+                </div>
+            
+                <hr color="#2c4869"/>
+
+                <div class="birthday">
+                    <div class="birthday_name">День рождения:</div>
+                    <div class="birthday_value">07 Aug 1981 r.</div>
+                </div>
+
+                <div class="city">
+                    <div class="city_name">Город:</div>
+                    <div class="city_value">Astana</div>
+                </div>
+                
+                <div class="marital_status">
+                    <div class="marital_status_name">Marital status:</div>
+                    <div class="marital_status_value">холост</div>
+                </div>
+                
+                <div class="work">
+                    <div class="work_name">Место работы:</div>
+                    <div class="work_value">Gazprom</div>
+                </div>
+
+                <div class="web">
+                    <div class="web_name">Веб-сайт:</div>
+                    <div class="web_value">http://www.alibekov.kz/</div>
+                </div>
+
+                <hr color="#2c4869"/>
+
+                <div class="dashbord">
+                    <div class="friend">
+                        <div class="value">21</div>
+                        <div class="friend_name">друг</div>
+                    </div>
+
+                    <div class="subscriber">
+                        <div class="value">22</div>
+                        <div class="subscriber_name">подписчика</div>
+                    </div>
+
+                    <div class="photo">
+                        <div class="value">45</div>
+                        <div class="photo_name">фотографии</div>
+                    </div>
+
+                    <div class="video">
+                        <div class="value">99</div>
+                        <div class="video_name">видеозаписей</div>
+                    </div>
+
+                    <div class="audio">
+                        <div class="value">9</div>
+                        <div class="audio_name">аудиозаписей</div>
+                    </div>
+
+                    <div class="pages">
+                        <div class="value">10</div>
+                        <div class="pages_name">страниц</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="photos">
+                <div class="photos_text">Мои фотографии  37</div>
+
+                <div class="photos_img">
+                    <img src="https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/666E/production/_89922262_pelecup.jpg.webp?format=jpg&width=1440" width="152px">
+                    <img src="https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/666E/production/_89922262_pelecup.jpg.webp?format=jpg&width=1440?format=jpg&width=1440" width="152px">
+                    <img src="https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/666E/production/_89922262_pelecup.jpg.webp?format=jpg&width=1440?format=jpg&width=1440" width="152px">
+                    <img src="https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/666E/production/_89922262_pelecup.jpg.webp?format=jpg&width=1440?format=jpg&width=1440" width="152px">
+                </div>
+            </div>
+
+
+            <div class="post">
+
+                <div class="post_user">
+                    <div class="post_user_img">
+                        <img src="https://photobooth.cdn.sports.ru/preset/post/9/cd/e9efeb6e1454da03468de7e10e873.jpeg?f=webp&q=90&s=2x&w=730" width="50px">
+                    </div>
+                    <div class="post_user_text">
+                        <div>Marat Alibekov</div>
+                        <div>17 ноя в 09:46</div>
+                    </div>
+                </div>
+
+                <div class="post_text">
+                    Predictably, there are some catches. Firstly, you have do it by telephone. Secondly, you have to ask him why he's coming to Scotland and, thirdly, you only have five minutes. Frost versus Nixon this won't be and that's fine by me. What questions to ask the three-time World Cup winner? I thought I'd throw that open to @BBCSportScot followers on Twitter. After filtering out queries about what the great man - who was 75 at the time and has now died at the age of 82 - thinks about Rangers' history, or his favourite Radiohead album, I decide to stick to my own lines of inquiry.
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
